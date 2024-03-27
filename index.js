@@ -154,13 +154,13 @@ const animate = ()=>{
 
     //Horizontal Scrolling
 
-    if(ball.posX >= 600 && keysPressed.right){
-        platform.posX -= 3
-        platform2.posX -= 3
+    if(ball.posX >= 1200 && keysPressed.right){
+        platform.posX -= 6
+        platform2.posX -= 6
         ball.dx = 0
-    } else if(ball.posX <= 300 && keysPressed.left){
-        platform.posX += 3
-        platform2.posX += 3
+    } else if(ball.posX <= 400 && keysPressed.left){
+        platform.posX += 6
+        platform2.posX += 6
         ball.dx = 0
     }
 
